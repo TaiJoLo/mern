@@ -11,6 +11,6 @@ const Users = () => {
       places: 3,
     },
   ];
-  return <UsersList itmes={USERS} />;
+  return <UsersList items={USERS} />;
 };
 export default Users;
