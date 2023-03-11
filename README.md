@@ -1,1 +1,2 @@
 # mern
+--openssl-legacy-provider
