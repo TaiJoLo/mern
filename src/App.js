@@ -6,6 +6,7 @@ import {
   Switch,
 } from "react-router-dom";
 
+import Auth from "./user/pages/Auth";
 import Users from "./user/pages/Users";
 import NewPlace from "./places/pages/NewPlace";
 import UserPlaces from "./places/pages/UserPlaces";
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/places/:placeId" exact>
             <UpdatePlace />
+          </Route>
+          <Route paht="/atuh">
+            <Auth />
           </Route>
           <Redirect to="/" />
         </Switch>
