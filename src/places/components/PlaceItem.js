@@ -79,6 +79,7 @@ const PlaceItem = (props) => {
           can't be undone thereafter.
         </p>
       </Modal>
+
       <li className="place-item">
         <Card className="place-item__content">
           {isLoading && <LoadingSpinner asOverlay />}
@@ -90,7 +91,7 @@ const PlaceItem = (props) => {
           </div>
           <div className="place-item__info">
             <h2>{props.title}</h2>
-            <h3>{props.address}</h3>
+            <h4>{props.address}</h4>
             <p>{props.description}</p>
           </div>
           <div className="place-item__actions">

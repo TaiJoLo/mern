@@ -8,6 +8,8 @@
   max-width: 25rem;
   margin: 7rem auto;
   text-align: center;
+  border-radius: 0px;
+  box-shadow: 5px 5px 0px 0px #292929;
 }
 
 .authentication form {

@@ -1,13 +1,33 @@
 .place-item {
-  margin: 1rem 0;
+  height: max-content;
+  border: 1.5px solid;
+  box-shadow: 5px 5px 0px 0px #292929;
+  margin-right: 5rem;
+}
+.place-item__content:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 0px 0px #292929;
 }
 
+.place-item:nth-child(even) {
+  transform: rotate(-3deg);
+  position: relative;
+  top: -5px;
+}
+
+.place-item:nth-child(odd) {
+  transform: rotate(5deg);
+  position: relative;
+  top: -10px;
+}
 .place-item__content {
+  width: 500px;
   padding: 0;
+  border-radius: 0px;
 }
 
 .place-item__info {
-  padding: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   text-align: center;
 }
 
@@ -24,11 +44,15 @@
 }
 
 .place-item__info h2,
-.place-item__info h3,
+.place-item__info h4,
 .place-item__info p {
   margin: 0 0 0.5rem 0;
 }
 
+.place-item__info p {
+  max-height: 200px;
+  overflow: hidden;
+}
 .place-item__actions {
   padding: 1rem;
   text-align: center;

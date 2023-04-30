@@ -18,12 +18,12 @@
 }
 
 .main-navigation__title {
-  color: white;
+  color: rgb(16, 15, 15);
 }
 
 .main-navigation__title a {
   text-decoration: none;
-  color: white;
+  color: rgb(16, 15, 15);
 }
 
 .main-navigation__header-nav {
@@ -42,4 +42,8 @@
   .main-navigation__header-nav {
     display: block;
   }
+}
+
+.logo-text {
+  font-family: "Lobster", cursive;
 }
