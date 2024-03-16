@@ -3,6 +3,10 @@
   width: 400px;
 }
 
+.map-container {
+  height: 300px;
+}
+
 .place-item__content {
 }
 

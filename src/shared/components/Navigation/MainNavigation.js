@@ -37,7 +37,7 @@ const MainNavigation = (props) => {
         </button>
         <h1 className="main-navigation__title">
           <Link className="logo-text" to="/">
-            M.
+            MyPlaces
           </Link>
         </h1>
 

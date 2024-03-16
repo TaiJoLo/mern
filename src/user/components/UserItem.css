@@ -22,6 +22,7 @@
 
 .card.user-item__content {
   padding: 0;
+  background: #292929 !important;
 }
 
 .user-item__image {
