@@ -34,7 +34,11 @@ Share your thoughts on your favourite places.
 
 You can access the live demo of [My Places](https://mern-places-f385f.web.app/), where you can explore the features and functionalities of the application.
 
-**Important Note:** The Node.js application is deployed on Render. It's important to note that [Render services](https://docs.render.com/disks) have an ephemeral filesystem. This means that any changes made to the service's local files will be lost whenever the service redeploys or restarts. Therefore, you may encounter missing images on certain pages due to this behavior.
+Deployed on:
+
+- Backend: Render
+
+- Frontend: Google Firebase Hosting
 
 
 
@@ -116,6 +120,7 @@ You can access the live demo of [My Places](https://mern-places-f385f.web.app/),
 - **Frontend**: React
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
+
 
 
 
